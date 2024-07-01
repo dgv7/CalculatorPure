@@ -12,7 +12,8 @@ class ViewController: UIViewController {
     }
 
     private func configureUI() {
-        view.backgroundColor = .white
+        //배경화면 속성 제거
+//        view.backgroundColor = .black
         
         // 수식 및 결과 표시 라벨 설정
         displayLabel.backgroundColor = .black
